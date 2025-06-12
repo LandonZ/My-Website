@@ -1,0 +1,50 @@
+.contact-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8vh;
+    padding-bottom: 10vh;
+}
+
+.icon-button {
+    background-color: #324b47;
+    color: #9ccdc1;
+    padding: 1.8vh 2vh;
+    border-radius: 1vh;
+    transition: all 0.2s ease;
+    position: relative;
+}
+
+.icon-button:hover {
+    color: #8ab5aa;
+    transform: scale(1.15);
+}
+
+.icon {
+    font-size: 6vh;
+}
+
+.tooltip-text {
+    opacity: 0;
+    background-color: #000000;
+    color: #ffffff;
+
+    border-radius: 0.5vh;
+    text-align: center;
+    position: absolute;
+    bottom: 110%; /*above the button*/
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0.5vh;
+
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.7vh;
+    white-space: nowrap;
+
+    transition: all 0.2s ease;
+    z-index: 5;
+}
+
+.icon-button:hover .tooltip-text{
+    opacity: 1;
+}

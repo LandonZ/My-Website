@@ -1,0 +1,32 @@
+.projects-container {
+    background-color: #9ccdc1;
+    width: 100%;
+    min-height: 100vh;
+    z-index: 0;
+    padding: 2rem 0;
+}
+
+.projects-title {
+    padding-top: 4vh;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 3.5rem;
+    color: #324b47;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.projects-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 4vw;
+}
+
+@media (max-width: 768px) {
+    .projects-title {
+        font-size: 2.5rem;
+    }
+
+    .projects-section {
+        padding: 0 1rem;
+    }
+}
