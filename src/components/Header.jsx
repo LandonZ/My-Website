@@ -4,13 +4,12 @@ import './Header.css';
 
 const Header = () => {
     const location = useLocation();
-    const basePath = '/My-Website';
     
     //easier to navigate
     const webpages = [
-        { name: 'Home', path: `${basePath}/`},
-        { name: 'Profile', path: `${basePath}/profile`},
-        { name: 'Projects', path: `${basePath}/projects`}
+        { name: 'Home', path: '/'},
+        { name: 'Profile', path: '/profile'},
+        { name: 'Projects', path: '/projects'}
     ];
 
     return (

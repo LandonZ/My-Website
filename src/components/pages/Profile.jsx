@@ -106,7 +106,7 @@ const Profile = () => {
                             <span>Java</span>
                         </div>
                         <div className='skill-item'>
-                            <img src={process.env.PUBLIC_URL + "/photos/c.png"} alt="C" />
+                            <img src={process.env.PUBLIC_URL + "/photos/C.png"} alt="C" />
                             <span>C</span>
                         </div>
                         <div className='skill-item'>
