@@ -1,4 +1,4 @@
-# Landon Zheng's Personal Website
+# landonzheng.com
 
 Released: June 2025
 
