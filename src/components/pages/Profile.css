@@ -107,6 +107,7 @@
     }
 
     .info-list li {
+        font-size: 3vw;
         padding-left: 0;  /* Remove padding on mobile */
     }
 
@@ -137,7 +138,7 @@
     }
 
     .skill-item span {
-        font-size: 2.5vw;
+        font-size: 3.5vw;
     }
 }
 
@@ -162,7 +163,7 @@
     }
 
     .skill-item span {
-        font-size: 3.5vw;
+        font-size: 3.5vmin;
     }
 }
 
